@@ -1,0 +1,15 @@
+{
+  "name": "employee-mcp-server",
+  "version": "1.0.0",
+  "description": "Node.js MCP server backed by MongoDB with AI planner/executor/analyzer pipeline.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test-client.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "mongodb": "^6.8.0",
+    "zod": "^3.25.0"
+  }
+}
